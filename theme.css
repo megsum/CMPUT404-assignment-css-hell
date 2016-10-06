@@ -1,0 +1,17 @@
+h1 {
+	font-family: "Book Antiqua";
+	font-size: 30pt;
+}
+
+p {
+	font-family: "Book Antiqua";
+	color: purple;
+	background-color: #8AE6B0;
+	
+}
+
+pre {
+	font-family: "Book Antiqua";
+	color: yellow;
+	background-color: #000000;
+}
