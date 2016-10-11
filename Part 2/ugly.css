@@ -1,0 +1,17 @@
+body {
+	 background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+	color: red;
+
+}
+
+p {
+	color: yellow;
+	
+}
