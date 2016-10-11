@@ -1,0 +1,58 @@
+h1 {
+	font-family: "Trebuchet MS";
+	font-size: 30pt;
+	/* From David Flores at https://www.flickr.com/photos/magdav/5399905776/ October 11, 2016*/
+	background-image: url('http://blogs.smithsonianmag.com/smartnews/files/2013/06/06_17_2013_book-smell.jpg');
+	color: white;
+	text-shadow: 3px 3px #000000; 
+}
+
+h2 {
+	font-family: "Trebuchet MS";
+	font-size: 20pt;
+}
+
+h3 {
+	font-family: "Palatino";
+	font-size: 20pt;
+}
+
+p {
+	font-family: "Book Antiqua";
+	
+}
+
+pre {
+	font-family: "Book Antiqua";
+}
+
+body {
+	 /* From http://www.w3schools.com/cssref/pr_background-attachment.asp October 11, 2016*/
+	 /* Image from TheDooley http://orig08.deviantart.net/d1ea/f/2013/099/b/b/parchment_background_by_thedooley-d610wre.png October 11, 2016*/
+    background-image: url('http://orig08.deviantart.net/d1ea/f/2013/099/b/b/parchment_background_by_thedooley-d610wre.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.caption {
+	caption-side: bottom;
+	text-align: center;
+}
+
+a:link {
+	color: #4E005E;
+}
+
+a:visited {
+	color: #77607C;
+}
+
+img {
+	display: block;
+   margin: 0 auto;
+   border:15px solid;
+   border-style: double;
+   border-color: #492950 #77607C #492950 #77607C;
+}
