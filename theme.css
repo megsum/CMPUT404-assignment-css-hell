@@ -1,17 +1,37 @@
 h1 {
-	font-family: "Book Antiqua";
+	font-family: "Trebuchet MS";
 	font-size: 30pt;
+}
+
+h2 {
+	font-family: "Trebuchet MS";
+	font-size: 24pt;
 }
 
 p {
 	font-family: "Book Antiqua";
-	color: purple;
-	background-color: #8AE6B0;
 	
 }
 
 pre {
 	font-family: "Book Antiqua";
-	color: yellow;
-	background-color: #000000;
+}
+
+body {
+	 /* From http://www.w3schools.com/cssref/pr_background-attachment.asp October 11, 2016*/
+    background-image: url('http://orig08.deviantart.net/d1ea/f/2013/099/b/b/parchment_background_by_thedooley-d610wre.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.caption {
+	caption-side: bottom;
+	text-align: center;
+}
+
+img {
+	display: block;
+   margin: 0 auto;
 }
