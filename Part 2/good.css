@@ -1,0 +1,87 @@
+body {
+	background-image: url("http://www.imageif.com/images/lines-texture-lines-texture-backgrounds-background-for-website-2.jpg");
+	background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+
+/* From http://cssreset.com/creating-fixed-headers-with-css/*/
+.header {
+   height:300%;
+   background:#e7e1dd;
+   border:1px solid #CCC;
+   width:1600px;
+   margin:0px auto;
+   background-image: url("");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+
+.name{
+	font-size: 40px;
+	text-align: center;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	white-space: nowrap;
+	margin: 0 auto;
+	width: 100%;
+	display: 100%;
+}
+
+/* From https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/*from http://www.w3schools.com/howto/howto_js_sidenav.asp*/
+.containerSide {
+    height: auto; 
+    width: 20%; 
+    position: absolute; 
+    z-index: 1; 
+    top: 9%;
+    right: 1%; 
+    overflow-x: hidden;
+    transition: 0.5s; 
+    /*http://www.w3schools.com/css/css3_gradients.asp*/
+    background-color: #EDF1F7;
+    border-left-style: solid;
+    border-left-color: blue;
+    
+}
+
+.containerTop{
+	display: flex;
+}
+
+.profilePhoto {
+ 	max-width: 442px; 
+ 	max-height: 449px;
+   display: block; 
+
+   
+}
+
+img{
+	width: 100%;
+}
+
+.aboutMe {
+	order: 2;
+	margin: 5%;
+}
+
+
+h1{
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: "Helvetica";	
+	color: white;
+}
+
+p {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: "Palatino";
+	color: white;
+	
+}
