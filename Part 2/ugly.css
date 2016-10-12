@@ -1,9 +1,19 @@
 body {
-	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+
+}
+
+/* From http://cssreset.com/creating-fixed-headers-with-css/*/
+.header {
+   height:100px;
+   background:#F0F0F0;
+   border:1px solid #CCC;
+   width:1200px;
+   margin:0px auto;
+   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
 }
 
 .name{
@@ -20,10 +30,54 @@ body {
 	animation: marquee 7s linear infinite;
 }
 
-.blink {
+/* From https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.container {
+	display: flex;
+	background-color: yellow;
+	flex-flow: row wrap;	
+	flex: 1 100%;
+}
+
+.containerTop {
+	display: flex;
+	flex-direction: row;
+	background-color: violet;
+	flex: 1 100%;
+}
+
+/*from http://www.w3schools.com/howto/howto_js_sidenav.asp*/
+.containerSide {
+    height: 100%; 
+    width: 20%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    right: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+.containerBottom {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgreen;
+	flex: 1 100%;
+}
+
+
+.profilePhoto {
 	animation: blink-animation 2s steps(5, start) infinite;
 	-webkit-animation: blink-animation 2s steps(5,start) infinite;
+	/*
+	position: relative;
+	float: left;
+	margin: 0 0 10px 10px;
+	*/
+	order: 1;
 }
+
 
 @-webkit-keyframes blink-animation {
 	to {
@@ -31,13 +85,24 @@ body {
 	}
 }
 
+
+.aboutMe {
+	order: 2;
+	margin: 5%;
+}
+
+.history {
+   position: relative;
+}
+
+
 h1{
 	color: red;	
 }
 
 @keyframes marquee {
 	0% { transform: translate(0%,0); }
-	100% { transform: translate(100%, 0); }
+	100% { transform: translate(90%, 0); }
 }
 
 p {
