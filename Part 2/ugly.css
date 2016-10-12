@@ -1,13 +1,13 @@
 body {
-
+	background-color: #f9f2f8;
 }
 
 /* From http://cssreset.com/creating-fixed-headers-with-css/*/
 .header {
-   height:100px;
+   height:300%;
    background:#F0F0F0;
    border:1px solid #CCC;
-   width:1200px;
+   width:1600px;
    margin:0px auto;
    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
    background-repeat: no-repeat;
@@ -31,53 +31,40 @@ body {
 }
 
 /* From https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-.container {
-	display: flex;
-	background-color: yellow;
-	flex-flow: row wrap;	
-	flex: 1 100%;
-}
-
-.containerTop {
-	display: flex;
-	flex-direction: row;
-	background-color: violet;
-	flex: 1 100%;
-}
-
 /*from http://www.w3schools.com/howto/howto_js_sidenav.asp*/
 .containerSide {
     height: 100%; 
     width: 20%; 
-    position: fixed; 
+    position: absolute; 
     z-index: 1; 
-    top: 0;
-    right: 0;
-    background-color: #111; 
+    top: 10%;
+    right: 0; 
     overflow-x: hidden;
-    padding-top: 60px; 
     transition: 0.5s; 
+    /*http://www.w3schools.com/css/css3_gradients.asp*/
+    background: linear-gradient(37deg, blue, lightblue);
 }
 
-.containerBottom {
+.containerTop{
 	display: flex;
-	flex-direction: column;
-	background-color: lightgreen;
-	flex: 1 100%;
 }
-
 
 .profilePhoto {
 	animation: blink-animation 2s steps(5, start) infinite;
 	-webkit-animation: blink-animation 2s steps(5,start) infinite;
-	/*
-	position: relative;
-	float: left;
-	margin: 0 0 10px 10px;
-	*/
 	order: 1;
+ 	max-width: 442px; 
+ 	max-height: 449px;
+   display: block; 
+   border: outset;
+   border-width: 5px 10px 10px 5px;
+   border-color: yellow red green blue;
+   
 }
 
+img{
+	width: 100%;
+}
 
 @-webkit-keyframes blink-animation {
 	to {
@@ -91,21 +78,21 @@ body {
 	margin: 5%;
 }
 
-.history {
-   position: relative;
-}
-
 
 h1{
+	padding-left: 5%;
+	padding-right: 5%;
 	color: red;	
 }
 
 @keyframes marquee {
 	0% { transform: translate(0%,0); }
-	100% { transform: translate(90%, 0); }
+	100% { transform: translate(100%, 0); }
 }
 
 p {
+	padding-left: 5%;
+	padding-right: 5%;
 	color: yellow;
 	font-family: "Comic Sans MS";
 	
