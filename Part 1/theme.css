@@ -34,6 +34,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+	background-color: beige;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
 .caption {

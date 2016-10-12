@@ -1,17 +1,47 @@
 body {
-	 background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
+	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-h1 {
+.name{
+	font-size: 40px;
+	font-family: "Comic Sans MS";
+	text-decoration: bold 4;
 	color: red;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	white-space: nowrap;
+	margin: 0 auto;
+	width: 100%;
+	display: 100%;
+	animation: marquee 7s linear infinite;
+}
 
+.blink {
+	animation: blink-animation 2s steps(5, start) infinite;
+	-webkit-animation: blink-animation 2s steps(5,start) infinite;
+}
+
+@-webkit-keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+
+h1{
+	color: red;	
+}
+
+@keyframes marquee {
+	0% { transform: translate(0%,0); }
+	100% { transform: translate(100%, 0); }
 }
 
 p {
 	color: yellow;
+	font-family: "Comic Sans MS";
 	
 }
