@@ -56,14 +56,15 @@ body {
  	max-width: 442px; 
  	max-height: 449px;
    display: block; 
-   border: outset;
-   border-width: 5px 10px 10px 5px;
-   border-color: yellow red green blue;
+
    
 }
 
 img{
 	width: 100%;
+	border: outset;
+   border-width: 100% 100% 10 5;
+   border-color: yellow red green blue;
 }
 
 @-webkit-keyframes blink-animation {
