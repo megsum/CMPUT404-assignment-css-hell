@@ -1,5 +1,5 @@
 body {
-	background-image: url("http://www.imageif.com/images/lines-texture-lines-texture-backgrounds-background-for-website-2.jpg");
+	background-image: url("http://cdn.playbuzz.com/cdn/2a75ac08-64e1-4f58-864c-0c5c3268dc74/2793058f-c56d-4694-8091-c286ca3dd055.png");
 	background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
@@ -11,7 +11,7 @@ body {
    height:300%;
    background:#e7e1dd;
    border:1px solid #CCC;
-   width:1600px;
+   width:100%;
    margin:0px auto;
    background-image: url("");
    background-repeat: no-repeat;
@@ -37,6 +37,7 @@ body {
     height: auto; 
     width: 20%; 
     position: absolute; 
+    display: flex;
     z-index: 1; 
     top: 9%;
     right: 1%; 
@@ -68,6 +69,16 @@ img{
 .aboutMe {
 	order: 2;
 	margin: 5%;
+	width: 100%;
+	background-color: rgba(21,79,137,0.7);
+}
+
+.history {
+	background-color: rgba(21,79,137,0.7);
+}
+
+.offer {
+	background-color: rgba(21,79,137,0.7);
 }
 
 

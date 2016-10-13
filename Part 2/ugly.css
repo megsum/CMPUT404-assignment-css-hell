@@ -1,13 +1,13 @@
 body {
 	background-color: #f9f2f8;
+	background-image: url("https://66.media.tumblr.com/6a3086142662d4a781d2b2b2cba7fd78/tumblr_my74ikIkHa1rfjowdo1_500.gif");
 }
 
 /* From http://cssreset.com/creating-fixed-headers-with-css/*/
 .header {
-   height:300%;
+   height:10em;
    background:#F0F0F0;
    border:1px solid #CCC;
-   width:1600px;
    margin:0px auto;
    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
    background-repeat: no-repeat;
@@ -37,12 +37,12 @@ body {
     width: 20%; 
     position: absolute; 
     z-index: 1; 
-    top: 10%;
+    top: 22%;
     right: 0; 
     overflow-x: hidden;
     transition: 0.5s; 
     /*http://www.w3schools.com/css/css3_gradients.asp*/
-    background: linear-gradient(37deg, blue, lightblue);
+    background-image: url("http://i145.photobucket.com/albums/r238/Sockai-chan/Avatars/pikachu-1.png");
 }
 
 .containerTop{
@@ -77,8 +77,14 @@ img{
 .aboutMe {
 	order: 2;
 	margin: 5%;
+	background-color: lightgreen;
+	padding-right: 20%;
 }
 
+.history {
+	background-color: maroon;
+
+}
 
 h1{
 	padding-left: 5%;
@@ -94,7 +100,7 @@ h1{
 p {
 	padding-left: 5%;
 	padding-right: 5%;
-	color: yellow;
+	color: black;
 	font-family: "Comic Sans MS";
-	
+	text-shadow: 1px 1px 5px orange;	
 }
