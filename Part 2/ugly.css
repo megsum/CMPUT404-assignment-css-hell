@@ -1,6 +1,7 @@
 body {
 	background-color: #f9f2f8;
-	background-image: url("https://66.media.tumblr.com/6a3086142662d4a781d2b2b2cba7fd78/tumblr_my74ikIkHa1rfjowdo1_500.gif");
+	/*https://66.media.tumblr.com/6a3086142662d4a781d2b2b2cba7fd78/tumblr_my74ikIkHa1rfjowdo1_500.gif*/
+	background-image: url("images/ghosties.gif");
 }
 
 /* From http://cssreset.com/creating-fixed-headers-with-css/*/
@@ -9,7 +10,8 @@ body {
    background:#F0F0F0;
    border:1px solid #CCC;
    margin:0px auto;
-   background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif");
+   /*From: https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif*/
+   background-image:url("images/binary.gif");
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
@@ -30,6 +32,12 @@ body {
 	animation: marquee 7s linear infinite;
 }
 
+/* Marqee from https://codepen.io/jamesbarnett/pen/kfmKa */
+@keyframes marquee {
+	0% { transform: translate(0%,0); }
+	100% { transform: translate(100%, 0); }
+}
+
 /* From https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 /*from http://www.w3schools.com/howto/howto_js_sidenav.asp*/
 .containerSide {
@@ -41,8 +49,8 @@ body {
     right: 0; 
     overflow-x: hidden;
     transition: 0.5s; 
-    /*http://www.w3schools.com/css/css3_gradients.asp*/
-    background-image: url("http://i145.photobucket.com/albums/r238/Sockai-chan/Avatars/pikachu-1.png");
+    /*From: http://i145.photobucket.com/albums/r238/Sockai-chan/Avatars/pikachu-1.png*/
+    background-image: url("images/pikachu.png");
 }
 
 .containerTop{
@@ -55,9 +63,7 @@ body {
 	order: 1;
  	max-width: 442px; 
  	max-height: 449px;
-   display: block; 
-
-   
+   display: block;  
 }
 
 img{
@@ -67,6 +73,7 @@ img{
    border-color: yellow red green blue;
 }
 
+/* Blink from http://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css3*/
 @-webkit-keyframes blink-animation {
 	to {
 		visibility: hidden;
@@ -92,10 +99,7 @@ h1{
 	color: red;	
 }
 
-@keyframes marquee {
-	0% { transform: translate(0%,0); }
-	100% { transform: translate(100%, 0); }
-}
+
 
 p {
 	padding-left: 5%;
