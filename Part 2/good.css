@@ -1,21 +1,20 @@
 body {
-	/*background-image: url("http://cdn.playbuzz.com/cdn/2a75ac08-64e1-4f58-864c-0c5c3268dc74/2793058f-c56d-4694-8091-c286ca3dd055.png");*/
-	
-	background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
-   background-size: cover;
-   background-color: #e3f1f2
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #e3f1f2
 }
 
 /* From http://cssreset.com/creating-fixed-headers-with-css/*/
+/* https://pixabay.com/static/uploads/photo/2015/12/15/23/05/color-blocks-1095089_960_720.png */
 .header {
    height:10em;
    background:#e7e1dd;
    border:1px solid #CCC;
    width:100%;
    margin:0px auto;
-   background-image: url("https://pixabay.com/static/uploads/photo/2015/12/15/23/05/color-blocks-1095089_960_720.png");
+   background-image: url("images/pastelHeader.png");
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
