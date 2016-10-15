@@ -36,7 +36,7 @@ Resources
 
 Collaborators
 =============
-Megan Sumner
+Leah Olexson
 
 License/Copyright
 =================
