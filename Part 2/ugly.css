@@ -99,7 +99,10 @@ h1{
 	color: red;	
 }
 
-
+ul{
+	padding-left: 8%;
+	padding-right: 8%;
+}
 
 p {
 	padding-left: 5%;
