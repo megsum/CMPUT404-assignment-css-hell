@@ -55,9 +55,10 @@ body {
 }
 
 .profilePhoto {
- 	max-width: 442px; 
- 	max-height: 449px;
+ 	max-width: 200px; 
+ 	max-height: 200px;
 	display: block; 
+	padding-bottom: 2em;
 }
 
 img{
@@ -66,7 +67,6 @@ img{
 
 .aboutMe {
 	order: 2;
-	margin-left: 1%;
 	width: 100%;
 	background-color: rgba(98,203,252,0.4);
 	margin-right: 22%;
@@ -74,15 +74,19 @@ img{
 }
 
 .history {
+	padding-top: 1%;
+	margin-top: 1%;
 	background-color: rgba(98,203,252,0.4);
-	margin-right: 22%;
-	padding-bottom: 1em;
+	margin-right: 22%;	
+	padding-bottom: 1%;
+	margin-bottom: 1%;
 }
 
 .offer {
+	padding-top: 1%;
 	background-color: rgba(98,203,252,0.4);
 	margin-right: 22%;
-	padding-bottom: 1em;
+	padding-bottom: 1%;
 }
 
 ul{

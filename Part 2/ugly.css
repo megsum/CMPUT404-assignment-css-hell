@@ -61,9 +61,9 @@ body {
 	animation: blink-animation 2s steps(5, start) infinite;
 	-webkit-animation: blink-animation 2s steps(5,start) infinite;
 	order: 1;
- 	max-width: 442px; 
- 	max-height: 449px;
-   display: block;  
+ 	max-width: 200; 
+ 	max-height: 200px;
+	padding-bottom: 2em;
 }
 
 img{
